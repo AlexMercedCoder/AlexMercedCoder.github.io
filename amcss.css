@@ -1,0 +1,128 @@
+.nav ul {
+    list-style: none;
+    background-color: #130942;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: none;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 8px;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: #fff;
+    color: #130942;
+  }
+   
+  .nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+  }
+
+  .container {
+    height: 90vh;
+    width: 90vw;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "left main right"
+                         "footer footer footer";
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+ }
+ .cell-1 {
+    background: #fff;
+    color: #130942;
+    grid-area: header;
+    padding: 0 0 .2em 0;
+ }
+ .cell-2 {
+    background: #4C3E8C;
+    color: white;
+    grid-area: left;
+    padding: 1em;
+ }
+ .cell-3 {
+    background: #130942;
+    grid-area: main;
+    color: white;
+    padding: 1em;
+ }
+ .cell-4 {
+    background: #4C3E8C;
+    color: white;
+    grid-area: right;
+    padding: 1em;
+ }
+ .cell-5 {
+    background: white;
+    color: #130942;
+    grid-area: footer;
+    padding: .2em 0 0 0;
+ }
+ .cell {
+    
+    text-align: center;
+ }
+
+ p {text-align: left; font-family: 'Raleway', sans-serif;}
+
+ h1 {font-family: 'Poppins', sans-serif; text-transform: uppercase;}
+
+ h2 {font-family: 'Muli', sans-serif;, sans-serif; text-transform: uppercase; text-decoration: underline;}
+
+ h3 {font-family: 'Muli', sans-serif;, sans-serif; text-transform: uppercase;}
+
+ h3 a {color: white; text-decoration: none;}
+   
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 130px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+        height: 90vh;
+        width: 90vw;
+        margin: 1rem auto;
+        display: grid;
+        grid-template-areas: "header header header"
+                             "main main main"
+                             "footer footer footer";
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .cell-4 {
+    visibility: hidden;
+    grid-area: right;
+    display: none;
+ }
+
+ .cell-2 {
+    visibility: hidden;
+    grid-area: left;
+    display: none;
+ }
+
+  }
