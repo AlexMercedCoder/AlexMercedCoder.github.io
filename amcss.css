@@ -89,6 +89,8 @@
  h3 {font-family: 'Muli', sans-serif;, sans-serif; text-transform: uppercase;}
 
  h3 a {color: white; text-decoration: none;}
+
+ p a {color: white; text-decoration: none;}
    
   @media screen and (min-width: 600px) {
     .nav li {
