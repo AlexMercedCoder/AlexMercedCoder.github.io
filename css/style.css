@@ -1,0 +1,79 @@
+/* UNIVERAL VARIABLES AND HELPER STYLES */
+
+:root {
+  --main-bg-color: #7dc2ad;
+  --main-txt-color: white;
+  --main-titles: 'Jura', sans-serif;
+  --main-text: 'Share Tech Mono', monospace;
+}
+
+/* * {
+    outline: 2px solid gold;
+} */
+
+body { font-size: 62.5%; padding: 0;}
+
+/* PROJECT SPECIFIC STYLES */
+
+header {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.spacer {height: 600px;}
+
+header div {text-align: center;}
+
+header img {
+
+  width: 200px;
+  border-radius: 90px;
+
+
+}
+
+h1 {
+
+  font-family: var(--main-titles);
+  color: white;
+  font-size: 7em;
+
+
+}
+
+h2 {
+
+  font-family: var(--main-titles);
+  color: white;
+  font-size: 6em;
+
+
+}
+
+button { 
+  padding: 13px; 
+  border-radius: 20px; 
+  border: 2px solid red; 
+  background-color: white; 
+  color: black; 
+  font-family: var(--main-text);
+  font-weight: 700;
+  font-size: 2em;
+  margin: 8px;
+  cursor: pointer;}
+
+  button:hover {background-color: black; color: white;}
+
+  iframe {border-radius: 20px; border 3px solid white; margin: 40px;}
+
+  p {font-size: 2.5em; color: white; width: 60%; margin: 20px auto;}

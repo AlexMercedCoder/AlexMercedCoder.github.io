@@ -36,7 +36,7 @@
 
   .container {
     height: 90vh;
-    width: 90vw;
+    width: 80%;
     margin: 1rem auto;
     display: grid;
     grid-template-areas: "header header header"
@@ -108,9 +108,8 @@
 
   @media screen and (max-width: 600px) {
     .container {
-        height: 90vh;
-        width: 90vw;
-        margin: 1rem auto;
+        width: 70vw;
+        margin: 10px auto;
         display: grid;
         grid-template-areas: "header"
                              "main"
@@ -121,12 +120,8 @@
         grid-template-columns: 1fr;
   }
 
-  .cell-4 {
-    grid-area: right;
- }
-
- .cell-2 {
-    grid-area: left;
+  .cell-1 {
+    padding: 0;
  }
 
   }
