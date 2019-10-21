@@ -79,9 +79,9 @@ button {
   p {font-size: 2.5em; color: white; width: 60%; margin: 20px auto;}
 
   @media only screen and (max-width: 600px) {
-    body { font-size: 80%; padding: 0;}
+    body { font-size: 60%; padding: 0;}
 
-    /* button { font-size: 4em;}
+    /* button { font-size: 4em;} */
 
-    p {font-size: 4em; width: 90%} */
+    p { width: 90%}
   }
