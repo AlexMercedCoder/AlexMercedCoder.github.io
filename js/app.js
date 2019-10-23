@@ -73,7 +73,8 @@ const domVals = {
     <a href="https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ"><button>Alex Explains CS Concepts</button></a>
     <a href="https://open.spotify.com/show/1kMcquypdIElTu4Nu98XPM"><button>Alex's Web Dev 101 Podcast</button></a>
     <a href="https://git.generalassemb.ly/AlexMerced"><button>Alex's Other Skills</button></a>
-    <a href="https://www.linkedin.com/in/alexmerced"><button>Resume/LinkedIn</button></a>
+    <a href="https://git.generalassemb.ly/AlexMerced"><button>Alex's General Assembly Git</button></a>
+    <a href="https://www.linkedin.com/in/alexmerced"><button>LinkedIn</button></a>
     
     `),
 

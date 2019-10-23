@@ -88,4 +88,8 @@ button {
     /* button { font-size: 4em;} */
 
     p { width: 90%}
+
+    h1 {font-size: 5em; margin: 0;}
+
+    iframe {margin: 0; height: 20%;}
   }
